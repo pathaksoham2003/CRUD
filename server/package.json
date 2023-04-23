@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Soham Pathak",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
