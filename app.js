@@ -1,9 +1,9 @@
 require("dotenv").config();
 const express = require('express');
 const app = express();
-require("./db/conn");
+require("./server/db/conn");
 const cors = require("cors");
-const router = require("./routes/router.js")
+const router = require("./server/routes/router.js")
 const path = require("path");
 const port = 8003;
 
