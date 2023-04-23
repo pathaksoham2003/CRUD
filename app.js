@@ -1,11 +1,11 @@
-require("dotenv").config();
+//require("dotenv").config();
 const express = require('express');
 const app = express();
 require("./server/db/conn");
 const cors = require("cors");
 const router = require("./server/routes/router.js")
 const path = require("path");
-const port = 8003;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
