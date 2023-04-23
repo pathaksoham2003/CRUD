@@ -4,14 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js",
-    "server":"npm app.js",
-    "client" : "npm strat --prefix ./client ",
-    "dev": "concurrently \"npm start\" \"npm run client\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Soham Pathak",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
